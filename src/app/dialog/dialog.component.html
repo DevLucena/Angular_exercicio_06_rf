@@ -1,0 +1,33 @@
+<h1 mat-dialog-title>Dados Cadastrados </h1>
+<div mat-dialog-actions>
+ <div>
+    <mat-dialog-content>
+      <hr>
+      <span>Nome: {{nomeDialog}}</span> <br>
+      <hr>
+      <span>Sobrenome: {{sobrenomeDialog}}</span> <br>
+      <hr>
+      <span>CPF: {{cpfDialog}}</span> <br>
+      <hr>
+      <span>Contato: {{telDialog}}</span> <br>
+      <hr>
+      <span>Sexo: {{sexDialog}}</span> <br>
+      <hr>
+      <span>Etado: {{estadoDialog}}</span> <br>
+      <hr>
+      <span>Endereço: {{enderecoDialog}}</span> <br>
+      <hr>
+      <span>Complemento: {{complementoDialog}}</span> <br>
+      <hr>
+      <span>E-mail: {{emailDialog}}</span> <br>
+      <hr>
+      <span>Usuario: {{usuarioDialog}}</span> <br>
+      <hr>
+      
+    </mat-dialog-content>
+  </div>
+  
+  <div>
+  <button mat-button (click)="cancelDialog()">Ok</button>
+  </div>
+</div>
